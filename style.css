@@ -1,0 +1,47 @@
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    margin: 2px;
+    padding: 2px;
+}
+
+.input {
+    margin: 9px;
+}
+
+#shape-canvas {
+    background-color: black;
+    width: 600px;
+    height: 600px;
+}
+
+.shape {
+    position: relative;
+}
+
+.circle {
+    background-color: rgba(128, 0, 128, 0.418);
+}
+
+.square {
+    background-color: rgba(255, 0, 0, 0.342);
+}
+
+.triangle {
+    background-color: rgba(255, 255, 0, 0.486);
+}
+
+.rectangle {
+    background-color: rgba(91, 250, 91, 0.466);
+}
+
+.button {
+    margin: 4px;
+    padding: 5px;
+    width: 155px;
+}
