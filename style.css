@@ -13,8 +13,8 @@
     border-width: 2px;
     border-color: rgb(30, 255, 0);
     margin: 4px;
-    padding: 2px;
-    border-radius: 8px;
+    padding: 8px;
+    border-radius: 10px;
     background-color: rgba(128, 128, 128, 0.65);
 }
 
@@ -23,19 +23,20 @@
     border-width: 2px;
     border-color: rgb(30, 255, 0);
     margin: 4px;
-    padding: 2px;
+    padding: 10px;
     border-radius: 8px;
     background-color: grey;
 }
 
 .button {
-    margin: 4px;
+    margin: 7px;
     padding: 5px;
-    width: 125px;
+    width: 150px;
 }
 
 .input {
-    margin: 9px;
+    margin: 8px;
+    width: 150px;
 }
 
 #shape-canvas {
@@ -44,6 +45,7 @@
     height: 600px;
     border-color: rgb(255, 60, 0);
     border-style: ridge;
+    position: relative;
 }
 
 #info-side-panel {
@@ -53,10 +55,11 @@
     margin: 4px;
     padding: 2px;
     border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.65);
 }
 
 .shape {
-    position: relative;
+    position: absolute;
 }
 
 .circle {
