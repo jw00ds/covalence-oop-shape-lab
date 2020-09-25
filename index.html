@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shape Up or Shape Out</title>
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" class="css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="container" id="container-inputs">
-            <label class="input" for="sq-ipt">Square Length:</label>
-            <input class="input" type="number" id="sq-ipt"></input>
-            <input class="input" type="button" value="Insert Square"></input>
-            <label class="input" for="rec-ipt">Rectangle Width:</label>
-            <input class="input" type="number" id="rec-ipt"></input>
-            <label class="input" for="rec-ipt">Rectangle Height:</label>
-            <input class="input" type="number" id="rec-ipt"></input>
-            <input class="input" type="button" value="Insert Rectangle"></input>
-            <label class="input" for="cir-ipt">Circle Radius:</label>
-            <input class="input" type="number" id="cir-ipt"></input>
-            <input class="input" type="button" value="Insert Circle"></input>
-            <label class="input" for="tri-ipt">Triangle Height:</label>
-            <input class="input" type="number" id="tri-ipt"></input>
-            <input class="input" type="button" value="Insert Triangle"></input>
-        </div>
-        <div class="container" id="shape-canvas">
+    <div id="container-1" class="container">
+        <div id="container-2" class="row d-flex justify-content-center">
+            <div id="container-3" class="col-9">
+                <label class="input" for="sq-ipt">Sq. Lg.:</label>
+                <input class="input" type="number" id="sq-ipt"></input>
+                <input class="input" type="button" id="sq-btn" value="Insert Square"></input>
+                <label class="input" for="rec-ipt">Rect. Wd.:</label>
+                <input class="input" type="number" id="rec-w-ipt"></input>
+                <label class="input" for="rec-ipt">Rect. Hgt.:</label>
+                <input class="input" type="number" id="rec-hgt-ipt"></input>
+                <input class="input" type="button" id="rec-btn" value="Insert Rectangle"></input>
+                <label class="input" for="cir-ipt">Ccl. Rad.:</label>
+                <input class="input" type="number" id="cir-ipt"></input>
+                <input class="input" type="button" id="cir-btn" value="Insert Circle"></input>
+                <label class="input" for="tri-ipt">Tri. Hgt.:</label>
+                <input class="input" type="number" id="tri-ipt"></input>
+                <input class="input" type="button" id="tri-btn" value="Insert Triangle"></input>
+            </div>
+            <div id="shape-canvas" class="row d-flex flex-wrap justify-content-center"></div>
+            <div id="info-side-panel" class="col-3 mx-5"></div>
         </div>
     </div>
-    <div class="container" id="info-sidepanel"></div>
     <!-- JS dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="script.js"></script>
-    <!-- CSS dependencies -->
-    <link rel="stylesheet" href="style.css" class="css">
 </body>
 
 </html>
