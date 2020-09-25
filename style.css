@@ -53,9 +53,18 @@
     border-width: 2px;
     border-color: rgb(30, 255, 0);
     margin: 4px;
-    padding: 2px;
+    padding: 20px;
     border-radius: 8px;
     background-color: rgba(128, 128, 128, 0.65);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.side-pan-content {
+    color: rgb(29, 255, 232);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .shape {
@@ -74,8 +83,6 @@
 .triangle {
     width: 0;
     height: 0;
-    border-top: 100px solid rgba(255, 255, 0, 0.486);
-    border-left: 100px solid transparent;
 }
 
 .rectangle {
